@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Land Page</title>
+</head>
+<body>
+    <br/>
+    <div class="container">
+    <img src="Logo.jpg" alt="Logomarca"
+      width="250px" />
+  </div>
+    <main>
+       <h1>Bem vindo à ChinaFoods</h1>
+        <div class="grid">
+            <p><b>Acesse nossas redes sociais</b></p>
+            <p><b>E faça seu pedido de:</b></p>
+<hr/>   
+    <ul>
+        <li>Yakisoba e Chop suey</li>
+        <li>Sushis variados</li>
+        <li>Temaki</li>  
+    </ul> 
+        <p><b>Acesse nosso instagram</b></p>
+    <button><a href="https://www.instagram.com/chinafoods/" target="_blank">Instagram</a></button>
+    </center></main>
+    </main>
+
+  <div class="menu">
+      <div class="category">
+        <img src="Yakisoba.jpg" width="180px">
+        <div class="sushi">
+            <h2 class="white-text">Yakisoba</h2>
+              <ul>
+                  <li>Yakisoba 2 pessoas completa - Valor R$ 34,79</li>
+                  <li>Yakisoba 4 pessoas completa - Valor R$ 54,79</li>
+                  <li>Yakisoba 6 pessoas completa - Valor R$ 72,99</li>
+              </ul>
+        </div>
+      </div>
+      <div class="category">
+        <img src="Sushi02.jpg" width="180px">
+          <div class="sushi">
+            <h2 class="white-text">Sushi</h2>
+              <ul>
+                  <li>Sushi de Salmão - Valor R$ 1,50</li>
+                  <li>Sushi de Atum - Valor R$ 2,50</li>
+                  <li>Sushi de Kani - Valor R$ 3,50</li>
+                  <li>Sushi de Camarão - Valor R$ 3,99</li>
+                  <li>Sushi de "Selecione o sabor" HOT - Valor R$ 4,99</li>
+              </ul>
+          </div>
+      </div>
+      <div class="category">
+        <img src="temaki-salmao.jpg" width="180px" alt="">
+          <div class="sushi">
+            <h2>Temaki</h2>
+              <ul>
+                  <li>Temaki de Salmão - Valor R$ 12,00</li>
+                  <li>Temaki de Atum - Valor R$ 14,00</li>
+                  <li>Temaki de Kani - Valor R$ 16,00</li>
+                  <li>Temaki de Camarão - Valor R$ 18,00</li>
+                  <li>Temaki de "sabor" HOT - Valor + R$ 5,00</li>
+              </ul>
+          </div>
+  </div>
+<!-- Teste de sistema de pedidos abaixo -->
+<div class="container">
+  <center><h1 class="borda-branca">Faça seu Pedido</h1></center>
+</div>
+<center>
+  <div class="pedido">
+            <h2>Yakisoba</h2>
+            <input type="number" id="yakisoba-qty" placeholder="Quantidade">
+          <select>
+            <option value="-1">Selecione o tipo</option>
+            <option value="Barca pra 2">Yakisoba 2 pessoas</option>
+            <option value="Barca pra 4">Yakisoba 4 pessoas</option>
+            <option value="Barca pra 6">Yakisoba 6 pessoas</option> 
+          </select>
+  <p>Observações:
+  <p>
+<textarea name="Obs:" rows="10" cols="40">
+    Em caso de remoção de algum ingrediente (Ex:Camarão,legumes e etc). Anotar abaixo:
+ °
+ °
+ °
+ °
+ °         
+</textarea>
+</p>
+</div>
+   <div class="pedido">
+            <h2>Sushi</h2>
+            <input type="number" id="sushi-qty" placeholder="Quantidade">
+          <select>
+            <option value="-1">Selecione o tipo</option>
+            <option value="Variado">Variados</option>
+            <option value="Salmão">Sushi de Salmão</option>
+            <option value="Atum">Sushi de atum</option>
+            <option value="Kani">Sushi de Kani</option>
+            <option value="Camarão">Sushi de camarão</option>
+            <option value="Sushi HOT">Sushi HOT</option>
+          </select>
+      <p>Observações:
+      <p>
+          <textarea name="Obs:" rows="10" cols="40">
+    Em caso de escolha de mais de uma opção de sabor de sushi. Anote seu pedido abaixo:
+ ° Sushi de Salmão- Quant.=
+ ° Sushi de Atum- Quant.=
+ ° Sushi de Kani- Quant.=
+ ° Sushi de Camarão- Quant.=
+ ° Sushi HOT- Quant.=      
+</textarea>
+</p>
+  </div>
+</div>
+        <div class="pedido">
+            <h2>Temaki</h2>
+            <input type="number" id="temaki-qty" placeholder="Quantidade">
+          <select>
+            <option value="-1">Selecione o tipo</option>
+            <option value="Variado">Variados</option>
+            <option value="Temaki Salmão">Temaki de Salmão</option>
+            <option value="Temaki Atum">Temaki de atum</option>
+            <option value="Temaki Kani">Temaki de Kani</option>
+            <option value="Temaki Camarão">Temaki de camarão</option>
+            <option value="Temaki HOT">Temaki de "sabor" Hot>
+
+          </select>
+          <p>Observações:
+            <p>
+              <textarea name="Obs:" rows="10" cols="40">
+
+    Em caso de escolha de mais de uma opção de sabor de Temaki. Anote seu pedido abaixo:
+ ° Temaki de Salmão- Quant.=
+ ° Temaki de Atum- Quant.=
+ ° Temaki de Kani- Quant.=
+ ° Temaki de Camarão- Quant.=
+ ° Temaki de "Selecione o sabor" HOT- Quant.=    
+              </textarea>
+            </p>
+        </div>
+
+        <div id="pedido-confirmado"></div>
+
+        <script src="index.js"></script>
+        <hr>
+
+<!-- Calcular valor total -->
+        <div class="container">
+          <h1>Calculadora de Pedido</h1>
+
+          <div class="item">
+              <label for="yakisoba">Yakisoba para:</label>
+              <select id="yakisoba" class="quantidade">
+                  <option value="0">Nenhum</option>
+                  <option value="2">2 pessoas</option>
+                  <option value="4">4 pessoas</option>
+                  <option value="6">6 pessoas</option>
+              </select>
+          </div>
+
+          <div class="item">
+              <label for="sushi">Sushi:</label>
+              <select id="sushi" class="quantidade">
+                  <option value="0">Nenhum</option>
+                  <option value="salmao">Salmão</option>
+                  <option value="atum">Atum</option>
+                  <option value="kani">Kani</option>
+                  <option value="camarao">Camarão</option>
+                  <option value="empanado">Empanado</option>
+              </select>
+          </div>
+
+          <div class="item">
+              <label for="temaki">Temaki:</label>
+              <select id="temaki" class="quantidade">
+                  <option value="0">Nenhum</option>
+                  <option value="salmao">Temaki de Salmão</option>
+                  <option value="atum">Temaki de Atum</option>
+                  <option value="kani">Temaki de Kani</option>
+                  <option value="camarao">Temaki de Camarão</option>
+                  <option value="'Sabor' empanado">Temaki "sabor" empanado</option>
+              </select>
+          </div>
+
+          <button onclick="calcularTotal()">Calcular Total</button>
+          <p id="total"></p>
+      </div>
+
+      <script src="script.js"></script>
+
+      <button onclick="enviarPedido()">Enviar Pedido</button>
+
+</body>
+</html>

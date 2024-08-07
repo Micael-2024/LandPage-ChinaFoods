@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+body {
+        width: 98vw;
+        background-image: url('sushi01.jpg');
+        background-size: 100%;
+        background-attachment: fixed;
+        background-position: left center;
+        background-color: black;
+        display: grid;
+        place-content: center;
+        font-family: 'Asap';
+    }
+main {
+        margin: auto;
+        max-width: 400px;
+        background-color: rgba(255, 255, 255, 0.555);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+.container >img {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+div h2 {
+    margin-bottom: 10px;
+}
+.category div {
+    margin-left: 0px;
+    padding: 10px;
+    border: 1px solid white;
+}
+.sushi {
+    color: white;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+}
+
+.category {
+    color: black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img {
+    text-align: start;
+}
+
+/* Teste de sistema de pedidos abaixo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.pedido {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0050b1;
+}
+
+#pedido-confirmado {
+    margin-top: 20px;
+}
+
+.caixa {
+    width: 300px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 50px auto; /* Isso centraliza a caixa horizontalmente */
+    display: flex;
+    justify-content: center; /* Isso centraliza o conteúdo horizontalmente */
+    align-items: center; /* Isso centraliza o conteúdo verticalmente */
+    text-align: center; /* Isso centraliza o texto horizontalmente */
+}
+
+/* Abaixo é a parte de adicionar borda no "Faça seu pedido" */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.borda-branca {
+    border: 5px solid black; /* Adiciona uma borda preta de 2px de largura */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background-color: white; /* Define o fundo como branco */
+}
+
+/*calcular valor total*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#total {
+    font-size: 18px;
+    font-weight: bold;
+}
+img {
+    border: 1px solid white;
+}
